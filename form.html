@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form- practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Hello John</h1>
+
+    <form action="/submit" method="post">
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="fullname" <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number"><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <label for="county">County:</label><br>
+        <select id="county" name="county">
+    <option value="nakuru">Nakuru</option>
+    <option value="nairobi">Nairobi</option>
+    <option value="kisii">Kisii</option>
+    </select>
+        <label for="message">message:</label>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
